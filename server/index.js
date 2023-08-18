@@ -14,7 +14,7 @@ app.use(cookie());
 app.use("/authentication" ,authentication);
 
 app.get("/", (req, res) => {
-  res.send({ msg: "etafakna web server working.." });
+  res.send({ msg: "authentication web server working.." });
 });
 
 app.listen(PORT, function () {
