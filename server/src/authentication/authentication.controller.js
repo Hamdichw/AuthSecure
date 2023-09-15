@@ -6,7 +6,6 @@ const {
   generateToken
 } = require("./authentication.service")
 const bcrypt = require("bcrypt");
-const jwt = require("jsonwebtoken");
 
 const registerController = async (req, res) => {
   try {
